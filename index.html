@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melanie Chen | Creative Director & Trend Creator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              // Classic Theme
+              'sidebar-bg': '#2C3E50', 
+              'text-primary': '#1F2937',
+              'text-secondary': '#4B5563',
+              'accent': '#3B82F6',
+              
+              // Skims / Beige Theme
+              'skims-bg': '#FDFBF7',         // Very light cream/bone
+              'skims-sidebar': '#544B43',    // Deep warm taupe/brown
+              'skims-text': '#382E28',       // Espresso / Dark Earth
+              'skims-muted': '#85786F',      // Muted warm grey
+              'skims-border': '#E6DDD5',     // Light beige border
+              'skims-accent': '#C1A690',     // Clay accent
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+              serif: ['Merriweather', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-50 text-gray-900 antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
